@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2{
+  margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.form-control{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.languages{
+  list-style-type: none;
+  font-weight: 500;
+    font-size: 28px;
+    line-height: 1.3;
+}

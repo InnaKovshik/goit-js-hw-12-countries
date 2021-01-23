@@ -1,0 +1,12 @@
+<h1 class="country"> {{name}}</h1>
+<div class="form_country">
+    <ul>
+        <h2 class="capital"><span class="text">Capital: </span>{{capital}}</h2>
+        <h3 class="population"><span class="text">Population: </span>{{population}}</h3>
+        <ul class="languages"><span class="text">Languages:</span>{{#each languages}}
+            <li class="tag-list__item">{{name}}</li>
+            {{/each}}
+        </ul>
+    </ul>
+    <ul><img src="{{flag}}" alt="" class="flag" width="500px"/></ul>
+</div>
