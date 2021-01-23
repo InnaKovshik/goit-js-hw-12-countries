@@ -1,9 +1,11 @@
 import './styles.css';
+import './styles.css';
 import countrySearch from './js/fetchCountries';
 import oneCountry from './templates/oneCountry.hbs';
 import countryList from './templates/coutryList.hbs'
 
 import '@pnotify/core/dist/BrightTheme.css';
+import '@pnotify/core/dist/PNotify.css';
 const { error } = require('@pnotify/core');
 
 let debounce = require('lodash.debounce');
